@@ -1,0 +1,266 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="156 152 654 745" width="654" height="745" role="img" aria-label="Bedford Men&#39;s Club Shield">
+  <defs>
+    
+    <linearGradient id="goldMetal" gradientUnits="userSpaceOnUse" x1="177" y1="0" x2="789" y2="0">
+      <stop offset="0%" stop-color="#e0c55c" />
+      <stop offset="8%" stop-color="#967930" />
+      <stop offset="17%" stop-color="#7a5c28" />
+      <stop offset="29.5%" stop-color="#dec358" />
+      <stop offset="36%" stop-color="#b0832e" />
+      <stop offset="44.5%" stop-color="#7f602a" />
+      <stop offset="57%" stop-color="#dfc75e" />
+      <stop offset="69%" stop-color="#f0eeb5" />
+      <stop offset="82%" stop-color="#d5b850" />
+      <stop offset="90%" stop-color="#b68a33" />
+      <stop offset="100%" stop-color="#dec358" />
+    </linearGradient>
+
+    
+    <linearGradient id="shieldBevelGold" gradientUnits="userSpaceOnUse" x1="483" y1="205" x2="483" y2="850">
+      <stop offset="0%" stop-color="#5e4314" />
+      <stop offset="38%" stop-color="#7a591e" />
+      <stop offset="72%" stop-color="#9c762b" />
+      <stop offset="100%" stop-color="#d8be64" />
+    </linearGradient>
+
+    
+    <linearGradient id="flapShadowL" gradientUnits="userSpaceOnUse" x1="186" y1="418" x2="210" y2="456">
+      <stop offset="0%" stop-color="#3c2a10" />
+      <stop offset="100%" stop-color="#6b4f20" />
+    </linearGradient>
+    <linearGradient id="flapShadowR" gradientUnits="userSpaceOnUse" x1="780" y1="418" x2="756" y2="456">
+      <stop offset="0%" stop-color="#3c2a10" />
+      <stop offset="100%" stop-color="#6b4f20" />
+    </linearGradient>
+
+    
+    <radialGradient id="textFaceNavy" gradientUnits="userSpaceOnUse" cx="483" cy="1097" r="805">
+      <stop offset="93.2%" stop-color="#09194f" />
+      <stop offset="95.4%" stop-color="#112d84" />
+      <stop offset="97.4%" stop-color="#1b43b8" />
+      <stop offset="99.4%" stop-color="#2b5be0" />
+    </radialGradient>
+
+    
+    <linearGradient id="textBevelHighlight" gradientUnits="userSpaceOnUse" x1="219" y1="320" x2="748" y2="360">
+      <stop offset="0%" stop-color="#bed8ff" />
+      <stop offset="35%" stop-color="#93bdff" />
+      <stop offset="65%" stop-color="#e3f0ff" />
+      <stop offset="100%" stop-color="#add0ff" />
+    </linearGradient>
+
+    
+    <path id="outerShieldPath" d="M 197,225 C 282.4,174.7 386.3,175 483,175 C 579.7,175 683.6,174.7 769,225 C 808.3,475.2 691.9,737.7 483,877.5 C 274.1,737.7 157.7,475.2 197,225 Z" />
+    <path id="innerShieldPath" d="M 223,258 C 297.6,209 394.4,210 483,210 C 571.6,210 668.4,209 743,258 C 772.8,473.6 671.6,718.4 483,845 C 294.4,718.4 193.2,473.6 223,258 Z" />
+    <path id="ribbonPath" d="M 177,322 C 315,255.3 651,255.3 789,322 C 791,358 791,396 786,422 C 784,430 782,435 780,437 C 685,363.5 281,363.5 186,437 C 184,435 182,430 180,422 C 175,396 175,358 177,322 Z" />
+    <path id="lettersPath" fill-rule="evenodd" d="M723.5,341.7L722.8,344.2L723.8,344.6L725.2,345.8L725.6,347.3L719.8,367.7L718.2,372.3L717.5,373L716.4,373.3L714.3,372.9L713.6,375.3L732.1,382.1L735.7,382.7L739.2,382.2L740.8,381.3L741.9,380.2L743,378.3L743.8,375.3L743.8,372.7L743.2,370.5L741.8,368.1L739.8,366L737,363.8L742.9,363.4L744.3,363L745.6,362.1L746.8,360.2L747.5,357.8L747.6,355.5L747.1,353.5L746,351.7L742.7,349L740.2,347.8ZM729.5,362.5L732.6,363.8L734.7,365.6L735.8,367.4L736.3,369.4L736.1,372.2L734.8,375.8L733.1,377.8L731.5,378.5L729.9,378.5L728.2,378L726.6,377.1L725.9,376.1L726.4,372.7ZM733.7,348.3L735.1,348.7L737.8,350.3L739.2,351.9L740,354.3L739.8,356.5L738.9,358.8L737.5,360.3L735.8,361L733.7,361L730.3,359.9ZM242.3,336.3L239.3,336.1L236,336.8L219.3,342.9L220,345.4L222.6,345.1L223.3,345.4L224.1,346.5L231.6,372L233.6,379.7L233.1,381.1L230.7,382.7L231.4,385.1L247.7,379.3L250.8,377.9L252.9,376.5L254.6,374.8L256.3,371.4L256.6,369.5L256.3,365.9L255.5,363.2L253.8,360.3L251.9,358.6L248.9,357.3L246.1,356.9L243.2,356.9L246.1,353.4L247.6,350.7L248.3,348.4L248.5,345.6L248,342.8L246.6,339.6L244.5,337.3ZM237,360.6L239.7,359.9L241.3,359.9L242.8,360.3L245.3,362.2L246.6,364.2L248.1,368.6L248.5,372.4L247.8,375.1L246,377L244.4,377.7L242.6,377.9L241.4,376.9L240,373.2L236.5,361.1ZM233.5,340.7L235.7,340.7L236.7,341L239,342.7L240.5,345.3L241.5,348.8L241.6,352.4L240.7,354.9L239.1,356.7L236.2,358.2L235.8,358.2L231,342L231.1,341.4ZM278.4,332.9L254.8,339.7L255.4,342.3L257.6,342L258.6,342.4L259.2,343.1L261.2,350.8L265.1,368.4L264.7,369.9L263.6,370.9L262.1,371.5L262.7,374L287,367L285.3,359.3L282.7,360L283.5,364.3L282.4,365.5L276.2,367.4L274.1,367.5L273.3,367L272.1,363.7L269.9,353.6L275.8,351.9L276.9,352.3L277.7,354.5L279.9,353.9L278,345.4L275.8,346.1L276,348.4L275.3,349.3L269.6,351.1L269.2,350.9L266.5,339.2L273.4,337L275.7,336.8L277.1,337.9L277.9,340.9L280,340.3ZM688.6,331.5L688,334L689.3,334.5L690.6,335.6L691,337.3L686.8,356.8L686.8,361.5L687.6,364.6L689.2,367.3L690.6,368.7L693.1,370.3L698,371.8L700.1,371.9L702.7,371.4L705.5,369.7L707.9,366.6L709.9,361.6L714,344.1L714.3,343.5L715.5,342.6L718.1,342.7L718.6,340.2L707.9,337.2L707.4,339.6L709.8,341.2L710.2,342L710.2,343.1L706,361.6L704.3,365.9L703.2,367.6L701.8,369L699.7,369.9L697.6,369.7L695.5,368.6L694.1,366.6L693.7,364.8L694,359.9L698.7,339.4L699.6,338.3L700.3,338L702.5,338.2L703.1,335.7ZM306.5,328.1L303.9,327.4L300.6,327.5L283.4,331.5L283.9,334.1L285.9,333.9L286.8,334.2L287.6,335L289.3,342.7L292.4,360.2L292.4,361.4L292,362.2L291.1,363L289.3,363.7L289.8,366.2L305.6,362.6L308.4,361.7L311.6,359.4L313,357.6L314.1,355.5L315,352.9L315.6,349L315.4,343.6L314.4,338.6L313.3,335.5L310.9,331.5L308.6,329.3ZM297,331L299.3,330.9L300.4,331.2L301.8,332L303.1,333.3L305,336.6L306.6,342L307.7,349.9L307.4,355.5L306.7,357.6L306,358.7L304.5,360L303,360.5L301.9,360.6L301,360.3L299.9,357.6L295.1,331.7ZM662.7,325.6L662.3,328.1L664.5,329.1L665.4,330.6L664.2,338.5L660.7,356.5L659.9,357.5L659.2,357.8L656.9,357.7L656.4,360.2L678,365.3L679.6,356.8L676.7,356.2L675.8,360.2L675,360.9L670.5,360.1L669.1,359.2L668.7,358.1L669.1,354.2L673.1,333.2L673.5,332.3L674.3,331.6L677.1,331.5L677.6,329.1ZM338.7,319.8L316.7,323.9L317.1,326.5L319.1,326.4L319.9,326.7L320.7,327.5L321.8,332.9L324.6,352.6L324.6,354.1L324.2,354.9L323.4,355.6L321.4,356.4L321.9,358.9L336.8,356L336.3,353.5L333.7,353.4L332.6,352.2L330.6,339.3L335.7,338.4L336.6,339.2L337,341.1L339.1,340.8L339.3,340.6L338.1,332.4L337.6,332.2L335.7,332.7L335.9,334.9L335.4,335.6L330.3,336.7L328.4,324.5L333.5,323.4L335.6,323.4L336.3,323.7L337.1,324.7L337.6,327.7L339.9,327.2ZM357.8,315.8L355,316.3L352.1,317.5L350.5,318.6L348,321.4L346.8,323.6L345.7,326.9L345.2,330.1L345.2,335.1L346.5,342.3L347.6,345.2L349.5,348.4L352,351L354.7,352.6L357.3,353.3L359.7,353.4L363.2,352.8L366.2,351.5L367.6,350.5L369.7,348.3L371.4,345.3L372.3,342.7L372.9,339.1L372.9,334L372.2,329.1L371.1,325.3L369.9,322.7L368.2,320.2L366.3,318.3L363.7,316.7L361,315.9ZM357.1,318.5L358.3,318.5L359.6,319.1L361.7,321.8L363,325.4L364.3,332.2L364.9,338.6L364.6,345.7L363.4,349L362.5,350L361.2,350.6L359,350.3L357.6,349.1L356.7,347.8L355.1,343.6L353.7,336.1L353.2,330.6L353.5,323.4L354.1,321.3L354.9,319.9L356,318.9ZM595.2,313.5L591.1,314.3L588.4,316.2L587.3,317.8L586.5,319.9L586.1,322.1L586.1,324.5L586.9,327.5L589.1,331L591.8,333.7L596.6,337.4L598.8,339.9L599.7,342.3L599.3,345.1L598.4,346.7L596.3,348.1L593.1,348.3L591.1,347.9L589,347L587.4,345.5L586.6,343.8L586.4,341.3L584.2,341.1L583.5,348.3L590.6,350.5L594.1,351L596.8,351L600.7,350.1L603,348.8L604.6,347.3L605.5,346L606.4,343.8L606.8,339.9L605.8,336L603.6,332.6L601.2,330.2L595.8,326L593.8,323.7L593,321.7L593.3,319.3L594,318L595.9,316.6L600.3,316.6L602,317.3L603.3,318.5L604.1,320.1L604.4,322.5L606.6,322.7L607.2,316.4L601.1,314.2ZM401,314.3L399.7,313.6L397.2,312.9L392.3,312.7L375.3,314.6L375.6,317.1L377.3,317.1L378.3,317.5L379,318.2L379.8,323L381.4,345L380.3,346.5L378,347.2L378.3,349.8L392.8,348.2L392.6,345.7L390.1,345.4L389.5,344.6L388.3,332.2L390.9,331.8L399.8,347.5L409.2,346.5L408.9,343.9L406.9,342.9L405.2,341.1L398.4,329.9L400.7,328.3L402.2,326.8L403.3,325L404,322.6L404,319.4L403.6,317.7L402.6,315.8ZM392.4,315.8L394.4,316.8L395.8,318.7L396.4,321.2L396.1,324.8L395.1,326.7L393.2,328.3L391,329.1L388.2,329.4L386.9,316.2L387.5,315.8L389.5,315.6ZM644.4,312.5L640.6,313.4L637.8,314.9L635,317.4L632.6,320.8L630.9,324.5L629.2,330.9L628.5,336.9L628.7,342.5L629.5,346.4L631.3,350.7L633.2,353.4L635.3,355.4L638.6,357.4L641.4,358.4L645.4,359.1L649.8,359.1L653.6,358.3L654.2,354.8L651.2,355.8L648.8,356.1L644.4,355.6L642.1,354.6L640.6,353.5L638.8,351.3L637.9,349.4L636.9,345.3L636.7,340.1L637.2,334.7L638.2,329.2L639.7,324.1L641,321.2L642.7,318.7L645.2,316.6L647.6,315.8L649.7,315.8L653.6,317.1L655,318.3L655.9,320L656.1,321.8L655.8,324.6L658.7,325L659.9,316.7L655.7,314.6L651.9,313.3L647.7,312.5ZM432.3,311.4L429.8,310.3L427.4,309.9L409.1,311.1L409.2,313.6L410.7,313.7L412,314.2L412.9,315.5L414.2,336.6L414.2,341.9L413,343.3L410.8,343.9L410.9,346.4L427.6,345.4L429.9,345L432.1,344.1L433.7,343L436.3,339.9L437.7,337.1L438.9,332.4L439.2,328.6L438.9,323.5L438.1,319.7L436.4,315.7L434.8,313.5ZM420.9,312.9L424.4,312.9L426.5,313.9L427.8,315.2L429.3,318L430.4,322.6L430.8,327.1L430.8,332.4L430.3,336.6L429.4,339.5L428.5,341L427.1,342.3L425.4,342.9L423.2,342.7L422.5,342L422.2,340.9L420.7,314.6ZM535,309.2L534.9,311.7L536.8,312.1L538.1,313.3L538.2,319.6L537.3,336.1L536.8,340.2L536.5,341L535.7,341.7L533.2,342L533.1,344.5L544.2,345.3L544.4,342.8L541.9,342L540.9,340.5L541.7,323.1L542,323L556.4,346.3L560.2,346.7L562.1,315.9L562.6,314.8L563.2,314.3L564.4,313.9L565.8,313.9L566,311.4L554.8,310.6L554.7,313.1L557.1,313.8L558.1,315.1L557.4,332.6L557.1,332.8L542.6,309.8ZM506.1,308.2L506.1,310.8L508.4,311.3L509.5,312.6L509.6,318.8L508.9,338.9L508.6,339.7L507.8,340.5L505.2,341L505.2,343.6L530.3,344.4L530.5,336.5L527.9,336.4L527.7,340.3L526.8,341.5L519.3,341.4L517.6,340.8L517.1,340.2L516.8,338.5L517,326.7L517.4,326.1L523.5,326.5L524.4,327.5L524.5,329.5L526.8,329.4L526.9,320.9L524.7,320.9L524.5,322.8L523.6,323.8L517.2,323.6L517.5,311.3L523.2,311.3L526.5,311.7L527.7,312.6L528,313.3L528,316.5L530.2,316.6L530.5,309.1ZM580.6,303.8L573,303.1L572.3,311.6L575.2,312L575.3,313.2L575,315.5L574.5,316.7L573,317.9L571.8,318L571.6,320.5L573.7,320.4L576,319.5L578.4,317L579.2,315.3L579.9,312.6ZM502.1,299L490.5,299.2L481.5,325.2L472.8,299.3L459.1,299.3L459.1,301.8L461.4,302.2L462.3,302.9L462.9,306.7L462.9,338.5L462.6,339.8L462.1,340.4L459.3,341.1L459.4,343.6L470,343.5L470,341L467.7,340.3L466.9,338.9L466.6,308.3L466.8,306.9L477,337L480.3,336.8L490.2,307.5L490.6,307.3L490.7,338.9L489.6,340.4L487.7,340.8L487.7,343.4L502.3,343.3L502.3,340.8L499.7,340.3L499.1,339.7L498.7,338.4L498.4,320.7L498.6,303.6L498.9,302.7L499.5,302.1L502.1,301.6Z" />
+
+    <clipPath id="outerShieldClip">
+      <use href="#outerShieldPath" />
+    </clipPath>
+    <clipPath id="innerShieldClip">
+      <use href="#innerShieldPath" />
+    </clipPath>
+    <clipPath id="ribbonClip">
+      <use href="#ribbonPath" />
+    </clipPath>
+    <clipPath id="lettersClip">
+      <use href="#lettersPath" />
+    </clipPath>
+
+    
+    <linearGradient id="sf_0_l" gradientUnits="userSpaceOnUse" x1="0" y1="-25.6" x2="-18.6" y2="-25.6">
+      <stop offset="0%" stop-color="#fae834" />
+      <stop offset="6%" stop-color="#f2cb1e" />
+      <stop offset="16%" stop-color="#eab819" />
+      <stop offset="55%" stop-color="#dca112" />
+      <stop offset="100%" stop-color="#bf7406" />
+    </linearGradient>
+    <linearGradient id="sf_0_r" gradientUnits="userSpaceOnUse" x1="0" y1="-25.6" x2="18.6" y2="-25.6">
+      <stop offset="0%" stop-color="#fae834" />
+      <stop offset="6%" stop-color="#e6ba19" />
+      <stop offset="16%" stop-color="#d9a113" />
+      <stop offset="55%" stop-color="#cf8d0c" />
+      <stop offset="100%" stop-color="#b86b04" />
+    </linearGradient>
+    <linearGradient id="sf_1_l" gradientUnits="userSpaceOnUse" x1="24.4" y1="-7.9" x2="18.6" y2="-25.6">
+      <stop offset="0%" stop-color="#fceb3a" />
+      <stop offset="6%" stop-color="#f5d121" />
+      <stop offset="16%" stop-color="#edc21c" />
+      <stop offset="55%" stop-color="#e1ab15" />
+      <stop offset="100%" stop-color="#c27807" />
+    </linearGradient>
+    <linearGradient id="sf_1_r" gradientUnits="userSpaceOnUse" x1="24.4" y1="-7.9" x2="30.1" y2="9.8">
+      <stop offset="0%" stop-color="#fae834" />
+      <stop offset="6%" stop-color="#e1ae15" />
+      <stop offset="16%" stop-color="#d3960f" />
+      <stop offset="55%" stop-color="#c8830b" />
+      <stop offset="100%" stop-color="#b66904" />
+    </linearGradient>
+    <linearGradient id="sf_2_l" gradientUnits="userSpaceOnUse" x1="15.1" y1="20.7" x2="30.1" y2="9.8">
+      <stop offset="0%" stop-color="#f9e632" />
+      <stop offset="6%" stop-color="#eec21a" />
+      <stop offset="16%" stop-color="#e3b016" />
+      <stop offset="55%" stop-color="#d79910" />
+      <stop offset="100%" stop-color="#b96c04" />
+    </linearGradient>
+    <linearGradient id="sf_2_r" gradientUnits="userSpaceOnUse" x1="15.1" y1="20.7" x2="0" y2="31.7">
+      <stop offset="0%" stop-color="#f8e430" />
+      <stop offset="6%" stop-color="#e2af16" />
+      <stop offset="16%" stop-color="#d49810" />
+      <stop offset="55%" stop-color="#ca860c" />
+      <stop offset="100%" stop-color="#b56804" />
+    </linearGradient>
+    <linearGradient id="sf_3_l" gradientUnits="userSpaceOnUse" x1="-15.1" y1="20.7" x2="0" y2="31.7">
+      <stop offset="0%" stop-color="#f8e430" />
+      <stop offset="6%" stop-color="#dfaa14" />
+      <stop offset="16%" stop-color="#d1930f" />
+      <stop offset="55%" stop-color="#c6820b" />
+      <stop offset="100%" stop-color="#b46704" />
+    </linearGradient>
+    <linearGradient id="sf_3_r" gradientUnits="userSpaceOnUse" x1="-15.1" y1="20.7" x2="-30.1" y2="9.8">
+      <stop offset="0%" stop-color="#f9e632" />
+      <stop offset="6%" stop-color="#ecbe1a" />
+      <stop offset="16%" stop-color="#e1ad15" />
+      <stop offset="55%" stop-color="#d59810" />
+      <stop offset="100%" stop-color="#b76a04" />
+    </linearGradient>
+    <linearGradient id="sf_4_l" gradientUnits="userSpaceOnUse" x1="-24.4" y1="-7.9" x2="-30.1" y2="9.8">
+      <stop offset="0%" stop-color="#fceb3a" />
+      <stop offset="6%" stop-color="#e2b016" />
+      <stop offset="16%" stop-color="#d49710" />
+      <stop offset="55%" stop-color="#c9850c" />
+      <stop offset="100%" stop-color="#b76a04" />
+    </linearGradient>
+    <linearGradient id="sf_4_r" gradientUnits="userSpaceOnUse" x1="-24.4" y1="-7.9" x2="-18.6" y2="-25.6">
+      <stop offset="0%" stop-color="#fdec3e" />
+      <stop offset="6%" stop-color="#f7d524" />
+      <stop offset="16%" stop-color="#efc61e" />
+      <stop offset="55%" stop-color="#e4b117" />
+      <stop offset="100%" stop-color="#c37907" />
+    </linearGradient>
+    <radialGradient id="ridgeSoft" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="61.5">
+      <stop offset="0%" stop-color="#fced3e" stop-opacity="0.45" />
+      <stop offset="48%" stop-color="#fff464" stop-opacity="0.60" />
+      <stop offset="85%" stop-color="#fcea3c" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#f2c81c" stop-opacity="0.10" />
+    </radialGradient>
+    <radialGradient id="ridgeLine" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="61.5">
+      <stop offset="0%" stop-color="#fcee44" stop-opacity="0.80" />
+      <stop offset="48%" stop-color="#fff778" stop-opacity="0.95" />
+      <stop offset="85%" stop-color="#fdee4c" stop-opacity="0.80" />
+      <stop offset="100%" stop-color="#f5ce20" stop-opacity="0.25" />
+    </radialGradient>
+    <clipPath id="starClip">
+      <polygon points="0,-61.4 18.6,-25.6 58.4,-19 30.1,9.8 36.1,49.7 0,31.7 -36.1,49.7 -30.1,9.8 -58.4,-19 -18.6,-25.6" />
+    </clipPath>
+
+    
+    <g id="goldStar" clip-path="url(#starClip)">
+      <polygon points="0,0 0,-61.4 -18.6,-25.6" fill="url(#sf_0_l)" />
+      <polygon points="0,0 0,-61.4 18.6,-25.6" fill="url(#sf_0_r)" />
+      <polygon points="0,0 58.4,-19 18.6,-25.6" fill="url(#sf_1_l)" />
+      <polygon points="0,0 58.4,-19 30.1,9.8" fill="url(#sf_1_r)" />
+      <polygon points="0,0 36.1,49.7 30.1,9.8" fill="url(#sf_2_l)" />
+      <polygon points="0,0 36.1,49.7 0,31.7" fill="url(#sf_2_r)" />
+      <polygon points="0,0 -36.1,49.7 0,31.7" fill="url(#sf_3_l)" />
+      <polygon points="0,0 -36.1,49.7 -30.1,9.8" fill="url(#sf_3_r)" />
+      <polygon points="0,0 -58.4,-19 -30.1,9.8" fill="url(#sf_4_l)" />
+      <polygon points="0,0 -58.4,-19 -18.6,-25.6" fill="url(#sf_4_r)" />
+      <g id="starRidges">
+        <line x1="0" y1="0" x2="0" y2="-61.4" stroke="url(#ridgeSoft)" stroke-width="2.0" stroke-linecap="round" />
+        <line x1="0" y1="0" x2="0" y2="-61.4" stroke="url(#ridgeLine)" stroke-width="0.9" stroke-linecap="round" />
+        <line x1="0" y1="0" x2="58.4" y2="-19" stroke="url(#ridgeSoft)" stroke-width="2.0" stroke-linecap="round" />
+        <line x1="0" y1="0" x2="58.4" y2="-19" stroke="url(#ridgeLine)" stroke-width="0.9" stroke-linecap="round" />
+        <line x1="0" y1="0" x2="36.1" y2="49.7" stroke="url(#ridgeSoft)" stroke-width="2.0" stroke-linecap="round" />
+        <line x1="0" y1="0" x2="36.1" y2="49.7" stroke="url(#ridgeLine)" stroke-width="0.9" stroke-linecap="round" />
+        <line x1="0" y1="0" x2="-36.1" y2="49.7" stroke="url(#ridgeSoft)" stroke-width="2.0" stroke-linecap="round" />
+        <line x1="0" y1="0" x2="-36.1" y2="49.7" stroke="url(#ridgeLine)" stroke-width="0.9" stroke-linecap="round" />
+        <line x1="0" y1="0" x2="-58.4" y2="-19" stroke="url(#ridgeSoft)" stroke-width="2.0" stroke-linecap="round" />
+        <line x1="0" y1="0" x2="-58.4" y2="-19" stroke="url(#ridgeLine)" stroke-width="0.9" stroke-linecap="round" />
+      </g>
+    </g>
+  </defs>
+
+  
+  <path d="M 186,437 L 207,456 L 210,418 Z" fill="url(#flapShadowL)" />
+  <path d="M 780,437 L 759,456 L 756,418 Z" fill="url(#flapShadowR)" />
+
+  
+  <use href="#outerShieldPath" fill="url(#goldMetal)" />
+
+  
+  <g clip-path="url(#outerShieldClip)">
+    <use href="#innerShieldPath" fill="none" stroke="#fff3b0" stroke-width="11" stroke-linejoin="round" opacity="0.28" />
+    <use href="#innerShieldPath" fill="none" stroke="url(#shieldBevelGold)" stroke-width="7.5" stroke-linejoin="round" opacity="0.72" />
+    <use href="#innerShieldPath" fill="none" stroke="#4a330e" stroke-width="3.2" stroke-linejoin="round" opacity="0.58" />
+  </g>
+
+  
+  <g clip-path="url(#innerShieldClip)">
+    <use href="#innerShieldPath" fill="#1e47c7" />
+    <path d="M 223,258
+             C 297.6,209 394.4,210 483,210
+             L 483,845
+             C 294.4,718.4 193.2,473.6 223,258 Z" fill="#2246a7" />
+    <use href="#innerShieldPath" fill="none" stroke="#081338" stroke-width="14" stroke-linejoin="round" opacity="0.11" />
+    <use href="#innerShieldPath" fill="none" stroke="#071235" stroke-width="8.5" stroke-linejoin="round" opacity="0.19" />
+    <use href="#innerShieldPath" fill="none" stroke="#060f2e" stroke-width="4.5" stroke-linejoin="round" opacity="0.30" />
+    <use href="#innerShieldPath" fill="none" stroke="#050b24" stroke-width="1.8" stroke-linejoin="round" opacity="0.45" />
+  </g>
+
+  
+  <use href="#goldStar" transform="translate(371, 502)" />
+  <use href="#goldStar" transform="translate(595, 502)" />
+  <use href="#goldStar" transform="translate(483, 666)" />
+
+  
+  <g clip-path="url(#outerShieldClip)">
+    <path d="M 186,437 C 281,363.5 685,363.5 780,437" transform="translate(0, 8.5)" fill="none" stroke="#070a18" stroke-width="16" stroke-linecap="round" opacity="0.10" />
+    <path d="M 186,437 C 281,363.5 685,363.5 780,437" transform="translate(0, 6.0)" fill="none" stroke="#070a18" stroke-width="11" stroke-linecap="round" opacity="0.16" />
+    <path d="M 186,437 C 281,363.5 685,363.5 780,437" transform="translate(0, 3.6)" fill="none" stroke="#060814" stroke-width="6.8" stroke-linecap="round" opacity="0.26" />
+    <path d="M 186,437 C 281,363.5 685,363.5 780,437" transform="translate(0, 1.5)" fill="none" stroke="#05060e" stroke-width="3.2" stroke-linecap="round" opacity="0.42" />
+    <path d="M 177,322 C 315,255.3 651,255.3 789,322" transform="translate(0, -1.2)" fill="none" stroke="#181208" stroke-width="3.2" stroke-linecap="round" opacity="0.22" />
+  </g>
+
+  
+  <use href="#ribbonPath" fill="url(#goldMetal)" />
+  <g clip-path="url(#ribbonClip)">
+    <path d="M 177,322 C 315,255.3 651,255.3 789,322" fill="none" stroke="#fff6be" stroke-width="3.6" opacity="0.42" />
+    <path d="M 186,437 C 281,363.5 685,363.5 780,437" fill="none" stroke="#5e4214" stroke-width="7.0" opacity="0.28" />
+    <path d="M 186,437 C 281,363.5 685,363.5 780,437" fill="none" stroke="#3d290a" stroke-width="3.2" opacity="0.46" />
+  </g>
+
+  
+  <g id="bannerText3D" clip-path="url(#ribbonClip)">
+    <g transform="translate(-0.5, -1.0)">
+      
+      <use href="#lettersPath" transform="translate(3.4, 5.6)" fill="#241604" opacity="0.11" />
+      <use href="#lettersPath" transform="translate(2.6, 4.4)" fill="#241604" opacity="0.20" />
+      <use href="#lettersPath" transform="translate(2.0, 3.5)" fill="#1d1102" opacity="0.34" />
+
+      
+      <use href="#lettersPath" transform="translate(1.60, 2.90)" fill="#040920" />
+      <use href="#lettersPath" transform="translate(1.44, 2.61)" fill="#050b26" />
+      <use href="#lettersPath" transform="translate(1.28, 2.32)" fill="#060d2c" />
+      <use href="#lettersPath" transform="translate(1.12, 2.03)" fill="#060f33" />
+      <use href="#lettersPath" transform="translate(0.96, 1.74)" fill="#071139" />
+      <use href="#lettersPath" transform="translate(0.80, 1.45)" fill="#08143f" />
+      <use href="#lettersPath" transform="translate(0.64, 1.16)" fill="#091645" />
+      <use href="#lettersPath" transform="translate(0.48, 0.87)" fill="#0a184b" />
+      <use href="#lettersPath" transform="translate(0.32, 0.58)" fill="#0a1a52" />
+      <use href="#lettersPath" transform="translate(0.16, 0.29)" fill="#0b1c58" />
+
+      
+      <g clip-path="url(#lettersClip)">
+        <use href="#lettersPath" fill="url(#textFaceNavy)" />
+        
+        <use href="#lettersPath" transform="translate(0.65, 0.75)" fill="none" stroke="url(#textBevelHighlight)" stroke-width="1.35" stroke-linejoin="round" opacity="0.82" />
+        
+        <use href="#lettersPath" transform="translate(0.32, 0.38)" fill="none" stroke="#eaf3ff" stroke-width="0.65" stroke-linejoin="round" opacity="0.62" />
+        
+        <use href="#lettersPath" transform="translate(-0.70, -0.80)" fill="none" stroke="#03081c" stroke-width="1.45" stroke-linejoin="round" opacity="0.72" />
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,43 @@
+# Build directories & svg.sty / Inkscape intermediates
+build/
+src/build/
+svg-inkscape/
+src/svg-inkscape/
+*_svg-tex.pdf
+*_svg-tex.pdf_tex
+
+# LaTeX intermediate & auxiliary files
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.pdfsync
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.idx
+*.ilg
+*.ind
+*.glo
+*.gls
+*.glg
+*.nav
+*.snm
+*.vrb
+*.xdv
+*.dvi
+*.w18
+*-eps-converted-to.pdf
+
+# Editor & OS temporary files
+*.swp
+*.swo
+*~
+.DS_Store

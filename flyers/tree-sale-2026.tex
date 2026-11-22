@@ -1,0 +1,297 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[top=0.36in, bottom=0.36in, left=0.52in, right=0.52in]{geometry}
+\usepackage[table]{xcolor}
+\usepackage{svg}
+\svgpath{{./}{resources/}{../resources/}{src/resources/}}
+\usepackage{graphicx}
+\graphicspath{{./}{build/}}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage[hidelinks]{hyperref}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+% Bedford Men's Club Flyer Palette
+\definecolor{bmcGreen}{HTML}{143322}
+\definecolor{bmcRed}{HTML}{9B1C24}
+\definecolor{bmcSageBg}{HTML}{F3F7F4}
+\definecolor{bmcRowAlt}{HTML}{F4F7FA}
+\definecolor{bmcRule}{HTML}{CBD5E1}
+\definecolor{bmcText}{HTML}{1F2937}
+\definecolor{bmcMuted}{HTML}{4B5563}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\color{bmcText}
+
+% Auto-measured equal-height 2-column highlight row for recent community activities
+\newsavebox{\hlBoxL}
+\newsavebox{\hlBoxR}
+\newlength{\hlRowHt}
+\newcommand{\highlightRow}[4]{%
+  \sbox{\hlBoxL}{%
+    \parbox[b]{\dimexpr0.488\textwidth-13pt\relax}{%
+      \vspace{3.5pt}%
+      {\fontsize{8.0}{9.4}\selectfont\bfseries\color{bmcGreen} #1}\par\vspace{1.5pt}%
+      {\fontsize{7.5}{9.0}\selectfont\color{bmcText} #2}%
+      \vspace{3.5pt}%
+    }%
+  }%
+  \sbox{\hlBoxR}{%
+    \parbox[b]{\dimexpr0.488\textwidth-13pt\relax}{%
+      \vspace{3.5pt}%
+      {\fontsize{8.0}{9.4}\selectfont\bfseries\color{bmcGreen} #3}\par\vspace{1.5pt}%
+      {\fontsize{7.5}{9.0}\selectfont\color{bmcText} #4}%
+      \vspace{3.5pt}%
+    }%
+  }%
+  \ifdim\ht\hlBoxL>\ht\hlBoxR
+    \setlength{\hlRowHt}{\ht\hlBoxL}%
+  \else
+    \setlength{\hlRowHt}{\ht\hlBoxR}%
+  \fi
+  \noindent
+  \setlength{\fboxsep}{0pt}%
+  \colorbox{bmcSageBg}{%
+    {\color{bmcGreen}\rule{2.5pt}{\hlRowHt}}%
+    \hspace{6pt}%
+    \parbox[b][\hlRowHt][c]{\dimexpr0.488\textwidth-13pt\relax}{\usebox{\hlBoxL}}%
+    \hspace{4.5pt}%
+  }%
+  \hfill
+  \colorbox{bmcSageBg}{%
+    {\color{bmcGreen}\rule{2.5pt}{\hlRowHt}}%
+    \hspace{6pt}%
+    \parbox[b][\hlRowHt][c]{\dimexpr0.488\textwidth-13pt\relax}{\usebox{\hlBoxR}}%
+    \hspace{4.5pt}%
+  }%
+}
+
+\begin{document}
+
+% ============================================================================
+% TOP HEADER: Logo (Top-Left), Club Title (Center), Christmas Tree (Top-Right)
+% ============================================================================
+\begin{minipage}[c]{0.13\textwidth}
+  \centering
+  \includesvg[height=0.76in]{bmc-v4.svg}
+\end{minipage}%
+\hfill
+\begin{minipage}[c]{0.70\textwidth}
+  \centering
+  {\scriptsize\bfseries\color{bmcRed} BEDFORD, NEW HAMPSHIRE \textbullet\ EST.\ 1976}\par\vspace{2pt}
+  {\fontsize{21}{24}\selectfont\bfseries\color{bmcGreen} Bedford Men's Club}\par\vspace{2.5pt}
+  {\fontsize{8.8}{10.5}\selectfont\itshape\color{bmcMuted} Neighbors Helping Neighbors \& Enhancing Community Life}
+\end{minipage}%
+\hfill
+\begin{minipage}[c]{0.13\textwidth}
+  \centering
+  \includesvg[height=0.76in]{christmas_tree.svg}
+\end{minipage}
+
+\vspace{5pt}
+{\color{bmcGreen}\hrule height 1.8pt}
+\vspace{6pt}
+
+% ============================================================================
+% OUR MISSION CALLOUT
+% ============================================================================
+\newsavebox{\missionBox}
+\sbox{\missionBox}{%
+  \parbox[b]{\dimexpr\textwidth-16pt\relax}{%
+    \vspace{4pt}%
+    {\fontsize{8.2}{10.0}\selectfont
+    \textbf{\color{bmcGreen} Our Mission:} Founded in 1976, the Bedford Men's Club (BMC) is a 501(c)(4) local not-for-profit organization (EIN: 02-0525233) dedicated to supporting causes that enhance the quality of life in Bedford through financial assistance and active community participation.}%
+    \vspace{4pt}%
+  }%
+}
+\setlength{\fboxsep}{0pt}%
+\colorbox{bmcSageBg}{%
+  {\color{bmcRed}\rule{3pt}{\ht\missionBox}}%
+  \hspace{8pt}%
+  \usebox{\missionBox}%
+  \hspace{5pt}%
+}
+
+\newcommand{\sectionHeader}[1]{%
+  \vspace{10pt}%
+  \noindent{\fontsize{9.0}{10.8}\selectfont\bfseries\color{bmcGreen} #1}\par\vspace{2.5pt}%
+  {\color{bmcRule}\hrule height 0.8pt}%
+  \vspace{5.5pt}%
+}
+
+% ============================================================================
+% WHAT WE DO IN BEDFORD (CORE INITIATIVES TABLE)
+% ============================================================================
+\sectionHeader{WHAT WE DO IN BEDFORD}
+
+\renewcommand{\arraystretch}{1.16}
+\setlength{\tabcolsep}{6pt}
+\noindent
+\begin{tabularx}{\textwidth}{@{\hspace{6pt}} >{\fontsize{8.0}{9.5}\selectfont\bfseries\leavevmode\color{bmcGreen}\raggedright\arraybackslash}p{0.26\textwidth} >{\fontsize{8.0}{9.5}\selectfont\raggedright\arraybackslash}X @{\hspace{6pt}}}
+  \rowcolor{bmcGreen}
+  \textcolor{white}{\scriptsize\bfseries INITIATIVE} &
+  \textcolor{white}{\scriptsize\bfseries COMMUNITY IMPACT} \\
+  Community Donations \& Grants &
+  Each year, we donate thousands of dollars to Bedford organizations, youth sports teams, scout programs, local schools, events, and residents in need. \\
+  \rowcolor{bmcRowAlt}
+  Graduating Senior Scholarships &
+  We award multiple \$2,000 scholarships annually to graduating Bedford high school seniors---both our Community Service \& Volunteer Scholarship and our Trade Scholarship for students enrolling in accredited vocational, technical, or trade school programs. \\
+  Fellowship \& Civic Service &
+  Members collaborate to review community grant requests, organize local service projects, and build lasting fellowship among Bedford residents. \\
+\end{tabularx}
+
+% ============================================================================
+% RECENT COMMUNITY INVOLVEMENT & HIGHLIGHTS
+% ============================================================================
+\sectionHeader{RECENT COMMUNITY INVOLVEMENT \& HIGHLIGHTS}
+
+\highlightRow
+  {Grilling Up Burgers \& Hot Dogs}
+  {Serving hot dogs and burgers from our mammoth grill at the Memorial Day Parade, youth sports jamborees, Joppa Hill Educational Farm events, town employee luncheons, and Peter Woodbury School's 4th-grade graduation.}
+  {Town Council \& School Board Forums}
+  {Hosting annual February candidate forums---including the 2026 local elections---broadcast live and on-demand on BCTV so Bedford voters can hear directly from candidates on key community issues.}
+
+\vspace{5pt}
+
+\highlightRow
+  {Hawkins Field Dugout Repair}
+  {Rebuilt the Hawkins Field dugouts with durable, low-maintenance composite materials---supporting adult softball and youth soccer while honoring club founder and former NH State Rep.\ Ken Hawkins.}
+  {Trunk or Treat}
+  {Bringing club pride to Bedford's annual Trunk or Treat with the Bedford Men's Club banner, creative trunk decorations, and plenty of goodies for local families and children.}
+
+% ============================================================================
+% ANNUAL CHRISTMAS TREE SALE (2026 PRICES, HOURS, LOCATION & SOURCING)
+% ============================================================================
+\sectionHeader{OUR ANNUAL CHRISTMAS TREE SALE --- 2026 SEASON}
+
+\newsavebox{\treeIntroBox}
+\sbox{\treeIntroBox}{%
+  \parbox[b]{\dimexpr\textwidth-17pt\relax}{%
+    \vspace{3.5pt}%
+    {\fontsize{7.7}{9.3}\selectfont
+      \textbf{\color{bmcGreen} Our Signature Fundraiser:} A beloved Bedford tradition drawing longtime residents and newcomers alike, with \textbf{100\% of proceeds going directly back into the community}. We order a set seasonal supply and stay open until we sell out---\textbf{when they are gone, they are gone!}\par\vspace{2.5pt}
+      \textbf{\color{bmcGreen} Grown by Weir Tree Farms (Colebrook, NH):} Trees \textbf{8' \& under} are Weir's signature \textbf{Fralsam Fir} hybrid---their top seller since 2002 and rated \textit{``Best Overall''} by the \textit{Wall Street Journal} for great scent and needle retention. Trees \textbf{over 8'} are classic \textbf{Balsam Firs}, prized for dark green needles, strong pine scent, and excellent form.%
+    }%
+    \vspace{3.5pt}%
+  }%
+}
+\setlength{\fboxsep}{0pt}%
+\colorbox{bmcSageBg}{%
+  {\color{bmcRed}\rule{3pt}{\ht\treeIntroBox}}%
+  \hspace{8pt}%
+  \usebox{\treeIntroBox}%
+  \hspace{6pt}%
+}
+
+\vspace{5.5pt}
+
+% Side-by-Side 2026 Prices & 2026 Hours Tables
+\noindent
+\begin{minipage}[t]{0.42\textwidth}
+  \renewcommand{\arraystretch}{1.14}%
+  \setlength{\tabcolsep}{5pt}%
+  \begin{tabularx}{\linewidth}[t]{@{\hspace{5pt}} >{\fontsize{7.8}{9.2}\selectfont\raggedright\arraybackslash}X >{\fontsize{7.8}{9.2}\selectfont\bfseries\color{bmcGreen}}r @{\hspace{5pt}}}
+    \rowcolor{bmcGreen}
+    \textcolor{white}{\scriptsize\bfseries 2026 TREES} &
+    \textcolor{white}{\scriptsize\bfseries PRICE} \\
+    4'--6' Fralsam Fir & \$75 \\
+    \rowcolor{bmcRowAlt}
+    6'--7' Fralsam Fir & \$105 \\
+    7'--8' Fralsam Fir & \$115 \\
+    \rowcolor{bmcRowAlt}
+    8'--10' Balsam Fir & \$140 \\
+  \end{tabularx}\par\vspace{2.5pt}
+  {\fontsize{7.2}{8.6}\selectfont\itshape\color{bmcRed}%
+    *Our larger trees are limited in quantity, so come early to ensure you get your desired tree size.%
+  }
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.555\textwidth}
+  \renewcommand{\arraystretch}{1.12}%
+  \setlength{\tabcolsep}{5pt}%
+  \begin{tabularx}{\linewidth}[t]{@{\hspace{5pt}} >{\fontsize{7.8}{9.2}\selectfont\raggedright\arraybackslash}X >{\fontsize{7.8}{9.2}\selectfont\bfseries}r @{\hspace{5pt}}}
+    \rowcolor{bmcRed}
+    \textcolor{white}{\scriptsize\bfseries 2026 HOURS} &
+    \textcolor{white}{\scriptsize\bfseries SCHEDULE} \\
+    Sales Start Sat., Nov.\ 21 & 12pm -- 9pm \\
+    \rowcolor{bmcRowAlt}
+    Thanksgiving Day, Nov.\ 26 & \textcolor{bmcRed}{CLOSED} \\
+    Black Friday, Nov.\ 27 & 9am -- 8:30pm \\
+    \rowcolor{bmcRowAlt}
+    Monday -- Thursday & 5pm -- 8pm \\
+    Friday & 4pm -- 9pm \\
+    \rowcolor{bmcRowAlt}
+    Saturday \& Sunday & 9am -- 8:30pm \\
+  \end{tabularx}
+\end{minipage}
+
+\vspace{4.5pt}
+
+% Compact Location & Volunteer Contact Strip
+\newsavebox{\treeContactBox}
+\sbox{\treeContactBox}{%
+  \parbox[b]{\dimexpr\textwidth-17pt\relax}{%
+    \vspace{3pt}%
+    {\fontsize{7.6}{9.2}\selectfont
+      \textbf{\color{bmcGreen} Location:} Murphy's Taproom \& Carriage House, 393 State Route 101, Bedford, NH 03110\par\vspace{1.5pt}
+      \textbf{\color{bmcGreen} Questions \& Inquiries:} Email \href{mailto:christmastrees@bedfordmensclub.com}{\texttt{\textbf{{\color{bmcRed} christmastrees@bedfordmensclub.com}}} and we will get back to you as soon as we can.}%
+    }%
+    \vspace{3pt}%
+  }%
+}
+\setlength{\fboxsep}{0pt}%
+\colorbox{bmcSageBg}{%
+  {\color{bmcGreen}\rule{3pt}{\ht\treeContactBox}}%
+  \hspace{8pt}%
+  \usebox{\treeContactBox}%
+  \hspace{6pt}%
+}
+
+\vfill
+
+% ============================================================================
+% BOTTOM CALLOUT: MONTHLY MEETING DETAILS & QR CODES
+% ============================================================================
+\setlength{\fboxrule}{1.2pt}%
+\setlength{\fboxsep}{5.5pt}%
+\fcolorbox{bmcGreen}{bmcSageBg}{%
+  \begin{minipage}[c]{\dimexpr0.66\textwidth-2\fboxsep-2\fboxrule\relax}
+    {\small\bfseries\color{bmcGreen} Join Us at Our Next Meeting --- New Members Welcome!}\par\vspace{2.5pt}
+    {\fontsize{7.7}{9.3}\selectfont
+      \textbf{\color{bmcGreen} When:} First non-holiday Monday of every month at 7:00 PM (excluding December)\par\vspace{1pt}
+      \textbf{\color{bmcGreen} Where:} Murphy's Taproom \& Carriage House, 393 State Route 101, Bedford, NH 03110\par\vspace{1pt}
+      \textbf{\color{bmcGreen} Mailing Address:} Bedford Men's Club, PO Box 10338, Bedford, NH 03110\par\vspace{2pt}
+      {\color{bmcRed} Website: \href{https://bedfordmensclub.clubexpress.com}{\textbf{\color{bmcRed} https://bedfordmensclub.clubexpress.com}}}\par\vspace{1pt}
+      {\color{bmcRed} Facebook: \href{https://www.facebook.com/bedfordmensclub}{\textbf{\color{bmcRed} https://www.facebook.com/bedfordmensclub}}}%
+    }
+  \end{minipage}%
+  \hfill
+  {\color{bmcGreen}\vrule width 0.8pt}%
+  \hfill
+  \begin{minipage}[c]{0.30\textwidth}
+    \centering
+    \begin{minipage}[t]{0.47\linewidth}
+      \centering
+      \setlength{\fboxrule}{0.5pt}%
+      \setlength{\fboxsep}{2pt}%
+      \fcolorbox{bmcRule}{white}{%
+        \includegraphics[width=0.68in,height=0.68in,keepaspectratio]{club-qr.png}%
+      }\par\vspace{2pt}
+      {\fontsize{6.8}{8.0}\selectfont\bfseries\color{bmcGreen} Club Website}
+    \end{minipage}%
+    \hfill
+    \begin{minipage}[t]{0.47\linewidth}
+      \centering
+      \setlength{\fboxrule}{0.5pt}%
+      \setlength{\fboxsep}{2pt}%
+      \fcolorbox{bmcRule}{white}{%
+        \includegraphics[width=0.68in,height=0.68in,keepaspectratio]{fb-qr.png}%
+      }\par\vspace{2pt}
+      {\fontsize{6.8}{8.0}\selectfont\bfseries\color{bmcGreen} Facebook}
+    \end{minipage}%
+  \end{minipage}%
+}
+
+\end{document}
